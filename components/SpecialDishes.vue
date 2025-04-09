@@ -7,7 +7,7 @@
           <p
             class="text-[#FF6868] font-inter font-bold text-[18px] uppercase mb-4 tracking-[0.175em]"
           >
-            Special Dishes
+            Special Dishes axaxaa
           </p>
           <h2
             class="text-[32px] sm:text-[40px] md:text-[48px] lg:text-[60px] font-inter font-bold text-black leading-[1.2]"
@@ -40,7 +40,6 @@
           </button>
         </div>
       </div>
-
       <!-- Slider -->
       <div class="flex justify-center">
         <Swiper
