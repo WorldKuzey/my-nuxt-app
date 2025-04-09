@@ -7,7 +7,7 @@
           <p
             class="text-[#FF6868] font-inter font-bold text-[18px] uppercase mb-4 tracking-[0.175em]"
           >
-            Special Dishes axaxaa
+            Special Dishes
           </p>
           <h2
             class="text-[32px] sm:text-[40px] md:text-[48px] lg:text-[60px] font-inter font-bold text-black leading-[1.2]"
