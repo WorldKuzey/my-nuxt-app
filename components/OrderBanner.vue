@@ -1,5 +1,5 @@
 <template>
-  <div class="relative w-full h-[897px] overflow-hidden">
+  <div class="relative w-full min-h-screen overflow-hidden">
     <!-- Arka plan görseli -->
     <img
       src="@/assets/images/OrderBanner/Background.png"
@@ -7,7 +7,7 @@
       class="absolute top-0 left-0 w-full h-full object-cover z-0"
     />
 
-    <!-- Design Element 1 - solda (Glow'un altında kalacak) -->
+    <!-- Design Element 1 -->
     <img
       src="@/assets/images/OrderBanner/Design-Element-1.png"
       alt="Design Element 1"
@@ -20,7 +20,7 @@
       ]"
     />
 
-    <!-- Design Element 2 - sağda (Glow'un altında kalacak) -->
+    <!-- Design Element 2 -->
     <img
       src="@/assets/images/OrderBanner/Design-Element-2.png"
       alt="Design Element 2"
@@ -33,21 +33,21 @@
       ]"
     />
 
-    <!-- Bg-Image-Here (Glow'un altında kalacak) -->
+    <!-- Bg-Image-Here -->
     <img
       src="@/assets/images/OrderBanner/Bg-Image-Here.png"
       alt="Bg Image Here"
       class="absolute z-5 object-contain w-[90vw] max-w-[1550px] h-auto left-0 top-[-2vh]"
     />
 
-    <!-- Heading Text (Glow'un altında kalacak) -->
+    <!-- Heading Text -->
     <img
       src="@/assets/images/OrderBanner/Heading-Text.png"
       alt="Heading Text"
       class="absolute z-20 object-contain w-[50vw] max-w-[900px] h-auto left-[10vw] top-[10vh] md:w-[55vw] md:top-[-2vh] sm:w-[60vw] sm:top-[6vh]"
     />
 
-    <!-- Glow görseli (her şeyin üstünde kalacak) -->
+    <!-- Glow -->
     <img
       src="@/assets/images/OrderBanner/Glow.png"
       alt="Glow"
@@ -56,14 +56,14 @@
 
     <!-- İçerik alanı -->
     <div
-      class="relative z-40 px-6 md:px-10 pt-[75vh] max-w-[1440px] mx-auto pl-[5vw]flex justify-center"
+      class="relative z-40 px-6 md:px-10 pt-[75vh] max-w-[1440px] mx-auto flex justify-center"
     >
       <!-- Özel Buton -->
       <button
-        class="flex items-center rounded-full overflow-hidden shadow-md"
+        class="flex items-center ml-[-300px] rounded-full overflow-hidden shadow-md"
         style="height: 60px; width: 250px"
       >
-        <!-- Sol ikon alanı -->
+        <!-- Sol ikon -->
         <div
           class="flex items-center justify-center h-full w-[60px] bg-[#756247]"
         >
@@ -74,7 +74,7 @@
           />
         </div>
 
-        <!-- Buton yazısı -->
+        <!-- Yazı -->
         <div
           class="flex-1 h-full flex items-center justify-center bg-[#dac98c]"
         >
