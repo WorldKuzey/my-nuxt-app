@@ -2,6 +2,9 @@
   <div>
     <HeaderTop />
     <HeaderBottom />
+
+    <NuxtPage />
+
     <Footer />
   </div>
 </template>

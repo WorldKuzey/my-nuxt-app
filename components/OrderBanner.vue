@@ -1,4 +1,4 @@
-<template >
+<template>
   <div class="relative w-full min-h-screen overflow-hidden">
     <!-- Arka plan görseli -->
     <img

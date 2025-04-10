@@ -1,9 +1,5 @@
 <template>
-  <div class="flex flex-col min-h-screen font-poppins">
-    <main class="flex-grow">
-      <NuxtPage />
-    </main>
-
+  <div class="flex flex-col font-poppins">
     <footer
       class="relative bg-[#f7f7f8] mt-20 text-black pt-12 px-4 sm:px-8 w-full"
     >
