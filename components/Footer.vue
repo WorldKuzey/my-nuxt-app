@@ -92,7 +92,9 @@
         </div>
 
         <!-- Newsletter & Product Images -->
-        <div class="mt-6 lg:mt-0 flex flex-col justify-between h-full">
+        <div
+          class="mt-6 ml-[-40px] lg:mt-0 flex flex-col justify-between h-full"
+        >
           <div class="w-full">
             <h3 class="font-bold text-lg mb-4">Subscribe Our Newsletter</h3>
 

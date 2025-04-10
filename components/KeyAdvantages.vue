@@ -1,26 +1,30 @@
 <template>
-  <div class="w-full py-10 px-4 flex mt-[-40px] justify-center">
+  <div class="w-full py-10 px-4 flex justify-center">
     <div
       class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 max-w-[1600px] w-full justify-items-center"
     >
       <div
         v-for="(item, index) in advantages"
         :key="index"
-        class="w-[311px] h-[107px] bg-[#F4F6FA] rounded-[12px] flex items-center gap-4 px-4 py-3"
+        class="w-full max-w-[311px] h-auto min-h-[107px] bg-[#F4F6FA] rounded-[12px] flex items-center gap-4 px-4 py-3"
       >
         <!-- Sol Görsel -->
         <img
           :src="item.icon"
           :alt="item.title"
-          class="w-[60px] h-[60px] object-contain"
+          class="w-[50px] h-[50px] object-contain sm:w-[55px] sm:h-[55px] md:w-[60px] md:h-[60px]"
         />
 
         <!-- Yazı Alanı -->
-        <div>
-          <h3 class="font-quicksand font-semibold text-[18px] text-[#242424]">
+        <div class="flex flex-col justify-center">
+          <h3
+            class="font-quicksand font-semibold text-[16px] sm:text-[17px] md:text-[18px] text-[#242424] leading-tight"
+          >
             {{ item.title }}
           </h3>
-          <p class="font-lato font-normal text-[16px] text-[#ADADAD] mt-1">
+          <p
+            class="font-lato font-normal text-[14px] sm:text-[15px] md:text-[16px] text-[#ADADAD] mt-1 leading-snug"
+          >
             {{ item.description }}
           </p>
         </div>
