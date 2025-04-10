@@ -1,5 +1,5 @@
 <template>
-  <section class="py-[50px] relative">
+  <section class="py-[50px] relative w-full">
     <div class="container mx-auto px-6 md:px-12 lg:px-20">
       <!-- Başlık ve yön butonları -->
       <div class="flex justify-between items-start mb-10 ml-2 md:ml-4 relative">

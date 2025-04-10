@@ -23,11 +23,11 @@
               <p class="text-sm text-gray-500">A Treasure of Tastes</p>
             </div>
           </div>
-          <p class="text-gray-600">
+          <p class="text-[#777777] text-[14px] font-normal leading-relaxed">
             FoodTrove is the biggest market of grocery products. Get your daily
             needs from our store.
           </p>
-          <div class="space-y-2 text-gray-600">
+          <div class="space-y-2 text-[#777777] text-[14px] font-normal">
             <div class="flex items-start space-x-2">
               <img
                 src="assets/icons/FooterIcons/red-location.svg"
@@ -44,9 +44,9 @@
                 class="w-5 h-6 mt-1"
               />
               <p>
-                <a href="mailto:example@email.com" class="hover:underline"
-                  >example@email.com</a
-                >
+                <a href="mailto:example@email.com" class="hover:underline">
+                  example@email.com
+                </a>
               </p>
             </div>
             <div class="flex items-start space-x-2">
@@ -55,9 +55,9 @@
                 class="w-5 h-6 mt-1"
               />
               <p>
-                <a href="tel:+911234567890" class="hover:underline"
-                  >+91 123 4567890</a
-                >
+                <a href="tel:+911234567890" class="hover:underline">
+                  +91 123 4567890
+                </a>
               </p>
             </div>
           </div>
@@ -66,7 +66,7 @@
         <!-- Company -->
         <div class="mt-6 lg:mt-0">
           <h3 class="font-bold text-lg mb-4">Company</h3>
-          <ul class="space-y-3 text-sm text-gray-600">
+          <ul class="space-y-3 text-[#777777] text-[14px] font-normal">
             <li><a href="#" class="hover:underline">About Us</a></li>
             <li>
               <a href="#" class="hover:underline">Delivery Information</a>
@@ -81,7 +81,7 @@
         <!-- Category -->
         <div class="mt-6 lg:mt-0">
           <h3 class="font-bold text-lg mb-4">Category</h3>
-          <ul class="space-y-3 text-sm text-gray-600">
+          <ul class="space-y-3 text-[#777777] text-[14px] font-normal">
             <li><a href="#" class="hover:underline">Dairy & Bakery</a></li>
             <li><a href="#" class="hover:underline">Fruits & Vegetable</a></li>
             <li><a href="#" class="hover:underline">Snack & Spice</a></li>

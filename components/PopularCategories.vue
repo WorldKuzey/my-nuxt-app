@@ -1,4 +1,4 @@
-<template>
+<template >
   <section class="py-12">
     <!-- Sınırlayıcı container -->
     <div class="max-w-[1440px] mt-[100px] mx-auto px-4 sm:px-6 lg:px-8">
