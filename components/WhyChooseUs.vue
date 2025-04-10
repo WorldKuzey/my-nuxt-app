@@ -4,11 +4,11 @@
       class="max-w-[1280px] w-full px-4 flex flex-col lg:flex-row items-center lg:items-start gap-10"
     >
       <!-- Sol Görsel -->
-      <div class="w-full lg:w-auto flex justify-center">
+      <div class="w-full flex justify-center">
         <img
           src="/images/WhyPeopleChooseUs/WhyPeopleChooseUs.jpg"
           alt="Why People Choose Us"
-          class="w-[578px] max-w-[578px] h-auto lg:h-[526px] rounded-[20px] object-cover"
+          class="w-full max-w-[578px] h-auto max-h-[526px] rounded-[20px] object-cover"
         />
       </div>
 
@@ -20,11 +20,11 @@
           Why People Choose us?
         </h2>
 
-        <div class="flex flex-col gap-6 items-center pylg:items-start">
+        <div class="flex flex-col gap-6 items-center lg:items-start">
           <div
             v-for="item in items"
             :key="item.id"
-            class="w-full sm:w-[90%] md:w-[80%] lg:w-[635px] h-auto bg-white rounded-[18px] shadow-[0_4px_20px_rgba(0,0,0,0.075)] px-4 sm:px-6 py-4 flex flex-col sm:flex-row items-center gap-4 sm:gap-6"
+            class="w-full max-w-[635px] bg-white rounded-[18px] shadow-[0_4px_20px_rgba(0,0,0,0.075)] px-4 sm:px-6 py-4 flex flex-col sm:flex-row items-center gap-4 sm:gap-6"
           >
             <!-- İkon Alanı -->
             <div class="relative w-[90px] h-[90px] shrink-0">

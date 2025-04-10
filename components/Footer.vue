@@ -91,12 +91,12 @@
           </ul>
         </div>
 
-        <!-- Newsletter & 5 ürün görseli -->
+        <!-- Newsletter & Product Images -->
         <div class="mt-6 lg:mt-0 flex flex-col justify-between h-full">
           <div class="w-full">
             <h3 class="font-bold text-lg mb-4">Subscribe Our Newsletter</h3>
 
-            <div class="relative mb-4 w-full sm:w-[300px] md:w-[360px]">
+            <div class="relative mb-4 w-full max-w-[360px]">
               <input
                 type="text"
                 placeholder="Search here..."
@@ -109,7 +109,7 @@
               />
             </div>
 
-            <div class="flex gap-2 mb-4">
+            <div class="flex gap-2 mb-4 flex-wrap">
               <a href="#"
                 ><img
                   src="assets/images/FooterImages/fbook.png"
@@ -133,28 +133,30 @@
             </div>
           </div>
 
-          <!-- ✅ 5 ürün görseli: sabit yatay, responsive -->
+          <!-- ✅ Responsive Product Images -->
           <div class="w-full mt-4">
-            <div class="flex justify-between items-center gap-2 w-full">
+            <div
+              class="flex flex-wrap justify-center sm:justify-between items-center gap-2 w-full"
+            >
               <img
                 src="assets/images/FooterImages/img1.png"
-                class="w-[60px] h-[60px] object-cover rounded-md"
+                class="w-[48px] h-[48px] sm:w-[60px] sm:h-[60px] object-cover rounded-md"
               />
               <img
                 src="assets/images/FooterImages/img2.png"
-                class="w-[60px] h-[60px] object-cover rounded-md"
+                class="w-[48px] h-[48px] sm:w-[60px] sm:h-[60px] object-cover rounded-md"
               />
               <img
                 src="assets/images/FooterImages/img3.png"
-                class="w-[60px] h-[60px] object-cover rounded-md"
+                class="w-[48px] h-[48px] sm:w-[60px] sm:h-[60px] object-cover rounded-md"
               />
               <img
                 src="assets/images/FooterImages/img4.png"
-                class="w-[60px] h-[60px] object-cover rounded-md"
+                class="w-[48px] h-[48px] sm:w-[60px] sm:h-[60px] object-cover rounded-md"
               />
               <img
                 src="assets/images/FooterImages/img5.png"
-                class="w-[60px] h-[60px] object-cover rounded-md"
+                class="w-[48px] h-[48px] sm:w-[60px] sm:h-[60px] object-cover rounded-md"
               />
             </div>
           </div>
