@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: true, // static site generation için yeterli
+  compatibilityDate: "2024-11-01",
+  devtools: { enabled: true },
+
   vite: {
     server: {
       fs: {
@@ -7,10 +11,11 @@ export default defineNuxtConfig({
       },
     },
   },
-  compatibilityDate: "2024-11-01",
-  devtools: { enabled: true },
+
   modules: ["@nuxt/image", "@nuxtjs/tailwindcss"],
+
   app: {
+    baseURL: "/my-nuxt-app/", // 👉 örnek: '/my-nuxt-app/' veya '/' eğer ana sayfa ise
     head: {
       link: [
         {
@@ -20,6 +25,4 @@ export default defineNuxtConfig({
       ],
     },
   },
-
-  //css: ["@/assets/css/tailwind.css"],
 });
